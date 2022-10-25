@@ -1,0 +1,55 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "player1",
+                "type": "felt"
+            },
+            {
+                "name": "player2",
+                "type": "felt"
+            },
+            {
+                "name": "board1",
+                "type": "felt"
+            },
+            {
+                "name": "board2",
+                "type": "felt"
+            }
+        ],
+        "name": "create_game",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "ships_len",
+                "type": "felt"
+            },
+            {
+                "name": "ships",
+                "type": "felt*"
+            }
+        ],
+        "name": "create_board",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "id_game",
+                "type": "felt"
+            },
+            {
+                "name": "id_grid",
+                "type": "felt"
+            }
+        ],
+        "name": "attack",
+        "outputs": [],
+        "type": "function"
+    }
+]
